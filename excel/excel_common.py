@@ -1,4 +1,7 @@
 import pandas as pd
+import os, sys
+sys.path.append('../common')
+import excel as ex
 
 # 엑셀 파일 읽기
 excel_data = pd.read_excel('파일명.xlsx')
